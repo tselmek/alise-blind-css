@@ -1,27 +1,28 @@
 "use client";
 
-import React, { useEffect, useState } from 'react';
-import { Contestant, allContestants } from './CurrentContestant'
+import { useEffect, useState } from 'react';
+import { Contestant } from './CurrentContestant'
 import styles from './page.module.css'
+import { allContestants } from './contestants';
 
 const sample = (array, n) => {
-  const shuffled = array.sort(() => 0.5 - Math.random());
-  let selected = shuffled.slice(0, n);
+  const shuffled = [...array].sort(() => 0.5 - Math.random());
+  let selected = shuffled.slice(0, Math.min(n, array.length));
 
   return selected;
 }
 
-const initialValue = sample(allContestants, 3);
-
 
 export function Gallery() {
 
-  const [displayedContestants, setDisplayedContestants] = useState(initialValue);
+  const [displayedContestants, setDisplayedContestants] = useState([]);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setDisplayedContestants(sample(allContestants, 3));
-    }, 5_000);
+      if (allContestants.length > 3) {
+        setDisplayedContestants(sample(allContestants, 3));
+      }
+    }, 60_000);
 
     return () => clearInterval(interval);
   }, []);

@@ -1,5 +1,7 @@
+"use client";
+
 import styles from './page.module.css'
-import CurrentContestant, { allContestants } from './CurrentContestant'
+import CurrentContestant from './CurrentContestant'
 import { Gallery } from './Gallery'
 
 export default function Home() {
