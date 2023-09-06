@@ -1,0 +1,29 @@
+/*
+.example est une classe d'exemple
+elle montre des propriétés importantes pour le positionnement
+*/
+.example {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  top: 50px;
+  left: 50px;
+  border-radius: 50%;
+  rotate: 45deg;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  left: -50px;
+  rotate: 45deg;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  right: -50px;
+  border-radius: 50%;
+}
