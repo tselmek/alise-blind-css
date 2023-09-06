@@ -51,6 +51,7 @@
   background-color: white;
   overflow: hidden;
   list-style: none;
+  min-width: 250px;
 }
 
 .gallery li {

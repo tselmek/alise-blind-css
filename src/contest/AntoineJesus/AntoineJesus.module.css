@@ -1,0 +1,74 @@
+/*
+.example est une classe d'exemple
+elle montre des propriétés importantes pour le positionnement
+*/
+.example {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  top: 50px;
+  left: 50px;
+  border-radius: 50%;
+  rotate: 45deg;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  left: -50px;
+  rotate: 45deg;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  right: -50px;
+  border-radius: 50%;
+}
+
+.head {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  top: 20px;
+  left: 40px;
+  border-radius: 50%;
+}
+
+.body {
+  height: 170px;
+  width: 350px;
+  background-color: yellow;
+  bottom: 20px;
+  left: 25px;
+  border-radius: 30%;
+}
+
+.eyeLeft {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  top: 50px;
+  left: 50px;
+  border-radius: 50%;
+}
+
+.eyeRight {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  top: 50px;
+  left: 150px;
+  border-radius: 50%;
+}
+
+.beak {
+  height: 50px;
+  width: 120px;
+  background-color: orange;
+  top: 100px;
+  left: 40px;
+  border-radius: 50%;
+}

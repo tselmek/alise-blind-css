@@ -21,8 +21,10 @@ export function Gallery() {
     const interval = setInterval(() => {
       if (allContestants.length > 3) {
         setDisplayedContestants(sample(allContestants, 3));
+      } else {
+        setDisplayedContestants(allContestants);
       }
-    }, 60_000);
+    }, 30_000);
 
     return () => clearInterval(interval);
   }, []);

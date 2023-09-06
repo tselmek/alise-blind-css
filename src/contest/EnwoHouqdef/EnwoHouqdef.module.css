@@ -1,0 +1,71 @@
+/*
+.example est une classe d'exemple
+elle montre des propriétés importantes pour le positionnement
+*/
+
+.diplome{
+  height: 30px;
+  width: 170px;
+  background-color: beige;
+  bottom: 150px;
+  left: 10px;
+  border-radius: 8%;
+  rotate: 35deg
+}
+
+.corps {
+  height: 180px;
+  width: 350px;
+  background-color: yellow;
+  bottom: 10px;
+  left: 25px;
+  border-radius: 45%;
+}
+
+.queue {
+  height: 100px;
+  width: 190px;
+  background-color: yellow;
+  bottom: 100px;
+  right: 30px;
+  border-radius: 8%;
+  rotate: -20deg;
+}
+
+.tete {
+  height: 110px;
+  width: 110px;
+  background-color: yellow;
+  top: 90px;
+  left: 100px;
+  border-radius: 50%;
+}
+
+.bec {
+  height: 40px;
+  width: 40px;
+  border-left: 10px solid orange;
+  border-bottom: 10px solid orange;
+  top: 150px;
+  left: 70px;
+  rotate: 45deg;
+}
+
+.chapo {
+  height: 60px;
+  width: 100px;
+  background-color: black;
+  top: 40px;
+  left: 150px;
+  border-radius: 5%;
+  rotate: 40deg;
+}
+
+.oeil {
+  height: 15px;
+  width: 15px;
+  background-color: black;
+  top: 130px;
+  left: 160px;
+  border-radius: 50%;
+}
