@@ -1,0 +1,35 @@
+.example {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  top: 50px;
+  left: 50px;
+  border-radius: 50%;
+  rotate: 45deg;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  left: -50px;
+  rotate: 45deg;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  right: -50px;
+  border-radius: 50%;
+}
+
+.triangle {
+  height: 0;
+  width: 0;
+  border-right : 87px solid transparent; /* Fait bouger l'angle en bas à droite */
+  border-bottom : 100px solid red; /* Fait bouger la hauteur du triangle  */
+  border-left : 87px solid transparent; /* Fait bouger l'angle en bas à gauche */
+  top: 100px;
+  left: 150px;
+}
